@@ -1,13 +1,17 @@
 namespace MultiCubitGates {
     open Microsoft.Quantum.Diagnostics;
-    open Microsoft.Quantum.Instrinsic;
+    open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
-    
+
     operation CompoundGate (qs : Qubit[]) : Unit is Adj {
-        S(q[0]);
+        S(qs[0]);
         I(qs[1]);
         Y(qs[2]);
-        DumpMachine();
         }
+    
+    operation BellState (qs : Qubit[]) : Unit is Adj {
+        H(qs[0]);
+        CNOT(qs[0], qs[1]);
+    }
 }
 
