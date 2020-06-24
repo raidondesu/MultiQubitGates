@@ -15,10 +15,15 @@ using Microsoft.Quantum.Simulation.Core;
 
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"MultiQubitGates\",\"Name\":\"CompoundGate\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":6,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"MultiQubitGates\",\"Name\":\"CompoundGate\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"MultiQubitGates\",\"Name\":\"BellState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"MultiQubitGates\",\"Name\":\"BellState\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"MultiQubitGates\",\"Name\":\"QubitSwap\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs\",\"Position\":{\"Item1\":26,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"qs\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":23}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"index1\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":41}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"index2\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":49},\"Item2\":{\"Line\":1,\"Column\":55}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"MultiQubitGates\",\"Name\":\"QubitSwap\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs\",\"Position\":{\"Item1\":26,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"MultiQubitGates\",\"Name\":\"QubitSwap\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs\",\"Position\":{\"Item1\":26,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":73},\"Item2\":{\"Line\":1,\"Column\":76}},\"Documentation\":[\"automatically generated QsAdjoint specialization for MultiQubitGates.QubitSwap\"]}")]
 #line hidden
 namespace MultiQubitGates
 {
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs", OperationFunctor.Body, 8, -1)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs", OperationFunctor.Body, 8, 18)]
     public partial class CompoundGate : Operation<QVoid, QVoid>, ICallable
     {
         public CompoundGate(IOperationFactory m) : base(m)
@@ -52,12 +57,6 @@ namespace MultiQubitGates
             set;
         }
 
-        protected ICallable MicrosoftQuantumDiagnosticsDumpMachine
-        {
-            get;
-            set;
-        }
-
         protected ICallable<Qubit, QVoid> MicrosoftQuantumIntrinsicReset
         {
             get;
@@ -78,10 +77,10 @@ namespace MultiQubitGates
                     MicrosoftQuantumIntrinsicS.Apply(qs[0L]);
 #line 11 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
                     MicrosoftQuantumIntrinsicY.Apply(qs[2L]);
-#line 12 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
-                    MicrosoftQuantumDiagnosticsDumpMachine.Apply(QVoid.Instance);
+#line 13 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
+                    MicrosoftQuantumIntrinsicReset.Apply(qs[0L]);
 #line 14 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
-                    MicrosoftQuantumIntrinsicReset.Apply(qs[3L]);
+                    MicrosoftQuantumIntrinsicReset.Apply(qs[2L]);
                 }
 #line hidden
                 catch
@@ -111,7 +110,6 @@ namespace MultiQubitGates
             this.Release = this.Factory.Get<Release>(typeof(Microsoft.Quantum.Intrinsic.Release));
             this.MicrosoftQuantumIntrinsicS = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.S));
             this.MicrosoftQuantumIntrinsicY = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.Y));
-            this.MicrosoftQuantumDiagnosticsDumpMachine = this.Factory.Get<ICallable>(typeof(Microsoft.Quantum.Diagnostics.DumpMachine<>));
             this.MicrosoftQuantumIntrinsicReset = this.Factory.Get<ICallable<Qubit, QVoid>>(typeof(Microsoft.Quantum.Intrinsic.Reset));
         }
 
@@ -120,6 +118,167 @@ namespace MultiQubitGates
         public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
         {
             return __m__.Run<CompoundGate, QVoid, QVoid>(QVoid.Instance);
+        }
+    }
+
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs", OperationFunctor.Body, 18, 27)]
+    public partial class BellState : Operation<QVoid, QVoid>, ICallable
+    {
+        public BellState(IOperationFactory m) : base(m)
+        {
+        }
+
+        String ICallable.Name => "BellState";
+        String ICallable.FullName => "MultiQubitGates.BellState";
+        protected Allocate Allocate
+        {
+            get;
+            set;
+        }
+
+        protected Release Release
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicCNOT
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, QVoid> MicrosoftQuantumIntrinsicReset
+        {
+            get;
+            set;
+        }
+
+        public override Func<QVoid, QVoid> Body => (__in__) =>
+        {
+#line hidden
+            {
+#line 19 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
+                var qs = Allocate.Apply(2L);
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 20 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
+                    MicrosoftQuantumIntrinsicH.Apply(qs[0L]);
+#line 21 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
+                    MicrosoftQuantumIntrinsicCNOT.Apply((qs[0L], qs[1L]));
+#line 22 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
+                    MicrosoftQuantumIntrinsicReset.Apply(qs[0L]);
+#line 23 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
+                    MicrosoftQuantumIntrinsicReset.Apply(qs[1L]);
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release.Apply(qs);
+                    }
+                }
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void Init()
+        {
+            this.Allocate = this.Factory.Get<Allocate>(typeof(Microsoft.Quantum.Intrinsic.Allocate));
+            this.Release = this.Factory.Get<Release>(typeof(Microsoft.Quantum.Intrinsic.Release));
+            this.MicrosoftQuantumIntrinsicH = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.H));
+            this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
+            this.MicrosoftQuantumIntrinsicReset = this.Factory.Get<ICallable<Qubit, QVoid>>(typeof(Microsoft.Quantum.Intrinsic.Reset));
+        }
+
+        public override IApplyData __dataIn(QVoid data) => data;
+        public override IApplyData __dataOut(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
+        {
+            return __m__.Run<BellState, QVoid, QVoid>(QVoid.Instance);
+        }
+    }
+
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs", OperationFunctor.Body, 27, -1)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs", OperationFunctor.Adjoint, 27, -1)]
+    public partial class QubitSwap : Adjointable<(IQArray<Qubit>,Int64,Int64)>, ICallable
+    {
+        public QubitSwap(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(IQArray<Qubit>,Int64,Int64)>, IApplyData
+        {
+            public In((IQArray<Qubit>,Int64,Int64) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    return ((IApplyData)Data.Item1)?.Qubits;
+                }
+            }
+        }
+
+        String ICallable.Name => "QubitSwap";
+        String ICallable.FullName => "MultiQubitGates.QubitSwap";
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicSWAP
+        {
+            get;
+            set;
+        }
+
+        public override Func<(IQArray<Qubit>,Int64,Int64), QVoid> Body => (__in__) =>
+        {
+            var (qs,index1,index2) = __in__;
+#line 28 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
+            MicrosoftQuantumIntrinsicSWAP.Apply((qs[index1], qs[index2]));
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override Func<(IQArray<Qubit>,Int64,Int64), QVoid> AdjointBody => (__in__) =>
+        {
+            var (qs,index1,index2) = __in__;
+#line 27 "C:/Users/Reaper/Desktop/Quantum/MultiQubitGates/MultiQubitGates/Program.qs"
+            MicrosoftQuantumIntrinsicSWAP.Adjoint.Apply((qs[index1], qs[index2]));
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumIntrinsicSWAP = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.SWAP));
+        }
+
+        public override IApplyData __dataIn((IQArray<Qubit>,Int64,Int64) data) => new In(data);
+        public override IApplyData __dataOut(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, IQArray<Qubit> qs, Int64 index1, Int64 index2)
+        {
+            return __m__.Run<QubitSwap, (IQArray<Qubit>,Int64,Int64), QVoid>((qs, index1, index2));
         }
     }
 }
