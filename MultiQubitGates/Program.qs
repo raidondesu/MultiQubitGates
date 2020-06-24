@@ -33,5 +33,38 @@
         let target = qs[1];
         Controlled Rx([control], (theta, target));
     }
+
+    operation MultiControls (controls : Qubit[], target : Qubit, controlBits : Bool[]) : Unit is Adj {
+        for(index in 0 .. Length(controls) - 1) {
+            if(controlBits[index] == false) {
+                X(controls[index]);
+            }
+        }
+
+        Controlled X(controls,target);
+
+        for (index in 0 .. Length(controls) - 1) {
+            if(controlBits[index] == false) {
+                X(controls[index]);
+            }
+        }
+    }
+
+    operation QuickControls (controls : Qubit[], target : Qubit, controlBits : Bool[]) : Unit is Adj {
+        within {
+            for(index in 0 .. Length(controls) - 1) {
+                if (controlBits[index] == false) {
+                    X(controls[index]);
+                }
+            }
+        } apply {
+            Controlled X(controls,target);
+        }
+
+    }
+
+    operation ControlWithLibrary (controls : Qubit[], target: Qubit, controlBits : Bool[]) : Unit is Adj {
+        (ControlledOnBitString(controlBits, X))(controls,target);
+    }
 }
 
