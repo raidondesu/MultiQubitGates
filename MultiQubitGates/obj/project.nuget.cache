@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPV9C6aLRzg5JZKevWNtl0OAZyCZ6+EYT/C/ahCIQJVrnvLSyW2XaT2IOT6ATbTV/hLLbCCDQYgwH91PEsdGjQ==",
+  "dgSpecHash": "ORlY1UjCtGm14vfOCT8cPb5IfRlPNTejqrTQwxINLe02wNklcZZ1TjwnsQ0vFJr8P/5FmFUjxF+HYv7qJQE/9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reaper\\Desktop\\Quantum\\MultiQubitGates\\MultiQubitGates\\MultiQubitGates.csproj",
+  "projectFilePath": "c:\\Users\\Reaper\\Desktop\\Quantum\\MultiQubitGates\\MultiQubitGates\\MultiQubitGates.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reaper\\.nuget\\packages\\fparsec\\1.0.3\\fparsec.1.0.3.nupkg.sha512",
     "C:\\Users\\Reaper\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",

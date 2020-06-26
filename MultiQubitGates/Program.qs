@@ -24,14 +24,18 @@
         }
     }
 
-    operation QubitSwap(qs : Qubit[], index1 : Int, index2 : Int) : Unit is Adj {
-        SWAP(qs[index1], qs[index2]);
+    operation QubitSwap() : Unit {
+        using(qs = Qubit[2]){
+            SWAP(qs[0], qs[1]);
+            Reset(qs[0]);
+            Reset(qs[1]);
+        }
     }
 
-    operation ControlledRotation (qs: Qubit[], theta: Double) : Unit is Adj{
-        let control = qs[0];
-        let target = qs[1];
-        Controlled Rx([control], (theta, target));
+    operation ControlledRotation () : Unit {
+        using(qs = Qubit[2]){
+            Controlled Rx([qs[0]], (1.0, qs[1])); 
+        }
     }
 
     operation MultiControls (controls : Qubit[], target : Qubit, controlBits : Bool[]) : Unit is Adj {
